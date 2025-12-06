@@ -1,0 +1,37 @@
+# Point cloud files (too large for git)
+*.ply
+*.pcd
+*.obj
+
+# Image files (can be large)
+*.png
+*.jpg
+*.jpeg
+
+# Model outputs and results
+depth_ply/
+final_ply/
+results/
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+run_log.txt
+
